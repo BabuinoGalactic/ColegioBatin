@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff0000;
+}
+
+a {
+    color: #ff0000;
+}
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #ff0000;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contacto label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#Imagenes img {
+    border: 2px solid black;
+    border-top-color: red;
+    border-bottom-color: red;
+  }
+  .imgRedonda {
+    border-radius:150px;
+}
